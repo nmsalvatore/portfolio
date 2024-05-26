@@ -12,9 +12,9 @@
 @font-face {
     font-family: "IBM Plex Sans";
     src:
-        local("IBM Plex Sans Thin"),
-        local("IBMPlexSans-Thin"),
-        url("./fonts/IBMPlexSans-Thin.woff2") format("woff2");
+        local("IBM Plex Sans Light"),
+        local("IBMPlexSans-Light"),
+        url("./fonts/IBMPlexSans-Light.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;

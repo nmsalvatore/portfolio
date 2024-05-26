@@ -14,7 +14,7 @@
     src:
         local("IBM Plex Sans Light"),
         local("IBMPlexSans-Light"),
-        url("IBMPlexSans-Light.woff2") format("woff2");
+        url("./fonts/IBMPlexSans-Light.woff2") format("woff2");
     font-weight: 300;
     font-style: normal;
     font-display: swap;

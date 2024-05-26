@@ -40,12 +40,10 @@
                         >
                     </h3>
                     <p>
-                        I actually built a version of this years ago, but wasn't
-                        confident enough in my skills to fully make it work.
                         Outside of physical bulletin boards, social media has
                         become the default landscape for sharing events, which
-                        meant that simply writing scrapers couldn't in itself
-                        solve the problem of aggregating event data. This
+                        meant that simply writing scrapers couldn't, on its own,
+                        solve the problem of scattered local event data. This
                         application, built with Django and PostgreSQL, features
                         a volunteer dashboard that allows volunteers, who
                         register through an email invitation and secure
@@ -65,9 +63,10 @@
                         to build a movie showtime aggregator using only
                         Javascript technologies. All showtime data is extracted
                         with a Node.js script that executes daily and updates a
-                        PostgreSQL database. An Express application serves an
-                        API of the showtime data and a SvelteKit application
-                        fetches the data and renders it client-side.
+                        PostgreSQL database. An Express application serves the
+                        showtime data through a REST API and a SvelteKit
+                        application fetches the data and renders it for the
+                        client.
                     </p>
                 </li>
                 <li>

@@ -6,13 +6,15 @@
 
 html {
     background: #222;
+    height: -webkit-fill-available;
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     font-family: "Courier New", Courier, monospace;
     color: #fafafa;
     -webkit-font-smoothing: antialiased;
